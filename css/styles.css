@@ -1,0 +1,53 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.navbar{
+     background-color: rgb(116, 37, 6);
+     min-height: 80px !important
+}
+
+.principal{
+     max-width: 1920px !important;
+     min-height: auto !important;
+     background-color: whitesmoke !important;
+}
+
+.principal h1{
+     font-size: 2rem;
+}
+
+.centered{
+     display: flex !important;
+     align-items: center !important;
+     justify-content: center !important;
+}
+
+#delivery{
+     background-color: rgb(236, 104, 39) !important;
+     border-radius: 6px !important;
+     padding: 10px;
+}
+
+.products{
+     min-height: 100vh !important;
+}
+
+.products img{
+     width: 100%;
+     border-radius: 20px !important;
+     overflow-x: hidden !important;
+}
+
+.productsText{
+     flex-direction: column;
+     color: brown;
+}
+
+.productsText p{
+     font-size: 1.2rem;
+     color: brown;
+}
+
