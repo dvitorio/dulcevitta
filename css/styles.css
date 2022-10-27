@@ -64,6 +64,7 @@
 }
 
 .contactForm{
+     background-color: #f1b999;
      min-height: 30vh;
 }
 
@@ -72,6 +73,24 @@
      align-items: center;
      justify-content: center;
      flex-direction: column;
+}
+
+.footer{
+     max-width: 1920px !important;
+     background-color: #742506;
+     min-height: 20vh !important;
+}
+
+.midias{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     max-width: 400px !important;
+}
+
+.midias i{
+     color: white;
+     font-size: 1.5rem;
 }
 
 

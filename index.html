@@ -22,7 +22,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse menu" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link text-white" href="#">Home <span class="sr-only">(Página atual)</span></a>
@@ -73,45 +73,72 @@
     <!-- PRODUTOS-->
     <div class="pt-4 product row" id="product">
       <div class="centered col-md-6 productsImg">
-        <img class="mt-2" src="img/candy1.jpg" alt="">
+        <img class="mt-2 w-100" src="img/candy1.jpg" alt="">
       </div>
       <div class="col-md-6 productsText">
-        <h1 class="mb-4 text-white">O maior sortimento de bombons e doces finos</h1>
-        <p class="text-white my-4">
+        <h2 class="mb-4 text-white">O maior sortimento de bombons e doces finos</h2>
+        <p class="text-center text-white my-4">
           Na Dulce Vitta, fica até difícil escolher dentre tantas variedades de doces e outras guloseimas. 
           Contamos com a maior variedade de bombons finos e doces para sua festa ou simplesmente para você 
           desfrutar de doces momentos!</p>
-          <p class="text-white my-4">
+          <p class="text-center text-white my-4">
             Além disso, nossos profissionais são formados em escolas especializadas e são capacitados anualmente,
             tudo para manter o padrão de excelência que só a Dulce Vitta possui. 
           </p>
       </div>
     </div>
-    <div class="flex-row-reverse pb-4 pt-5 product" id="product">
+    <div class="flex-row-reverse pb-4 pt-5 product row" id="product">
       <div class="centered col-md-6 productsImg">
-        <img class="mt-2" src="img/candy4.jpg" alt="">
+        <img class="mt-2 w-100" src="img/candy4.jpg" alt="">
       </div>
       <div class="col-md-6 productsText">
-        <h1 class="mb-4 text-white">O maior sortimento de bombons e doces finos</h1>
-        <p class="text-white my-4">
-          Na Dulce Vitta, fica até difícil escolher dentre tantas variedades de doces e outras guloseimas. 
-          Contamos com a maior variedade de bombons finos e doces para sua festa ou simplesmente para você 
-          desfrutar de doces momentos!</p>
-          <p class="text-white my-4">
-            Além disso, nossos profissionais são formados em escolas especializadas e são capacitados anualmente,
-            tudo para manter o padrão de excelência que só a Dulce Vitta possui. 
+        <h2 class="mb-4 text-white text-right">Excelência e qualidade são nossas metas</h2>
+        <p class="text-center text-white my-4">
+          Acreditamos que para sermos referência para nossos clientes, precisamos ser excelentes no que fazemos, ou seja,
+          temos que manter o padrão de qualidade nos mais altos níveis, para que nossos clientes possam lembrar de nossos 
+          produtos quando se lembrarem de doces deliciosos!
+        </p>
+          <p class="text-center text-white my-4">
+            Para isso, levamos em consideração diversos fatores, desde a seleção dos melhores ingredientes, como também o 
+            pessoal mais capacitado e preparado para fazer os doces e tortas mais gostosos que você jamais verá na concorrência.
+          </p>
+      </div>
+    </div>
+    <div class="flex-row pb-4 pt-5 product row" id="product">
+      <div class="centered col-md-6 productsImg">
+        <img class="mt-2 w-100" src="img/factory.jpg" alt="">
+      </div>
+      <div class="col-md-6 productsText">
+        <h2 class="mb-4 text-white">A melhor estrutura para melhor lhe servir</h2>
+        <p class="text-center text-white my-4">
+          Fazemos questão de proporcionar a melhor experiência em doces e tortas, e para isso, investimos muito em equipamentos
+        e pessoal especializado, para que nossos produtos tenham a máxima qualidade exigida pelo mercado e pelos nossos clientes. 
+        </p>
+          <p class="text-center text-white my-4">
+            Aqui levamos qualidade a sério, e promovemos a inspeção e manutenção preventiva e contínua de nossos equipamentos e instalações. 
           </p>
       </div>
     </div>
 
-    <!--RODAPÉ-->
+    <!--FORMULÁRIO-->
     <div class="contactForm">
-      <h2 class="pt-4 mb-3 text-center text-secondary">Dúvidas, sugestões ou reclamações, preencha aqui</h2>
+      <h2 class="pt-4 mb-3 text-center text-white">Dúvidas, sugestões ou reclamações, preencha aqui</h2>
       <div class="col-md-6 contactFormInputs container p-3">
         <input class="form-control ml-2 my-3" type="text" placeholder="Seu nome" id="name">
         <input class="form-control ml-2 my-3" type="email" placeholder="Seu melhor email" id="email">
         <input class="form-control ml-2 my-3" type="tel" placeholder="Telefone (Whatsapp)" id="cellphone">
         <textarea class="form-control ml-2" name="" id="" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+        <button class="btn btn-block btn-primary mt-2">Enviar</button>
+      </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <div class="container-fluid footer row">
+      <div class="col-md-6 ml-2 midias">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
       </div>
     </div>
     
@@ -121,5 +148,6 @@
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <script src="js/poke.js"></script>
 </body>
 </html>

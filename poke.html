@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>PokeAPI</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
+     <link rel="stylesheet" href="poke.css">
+     <script src="js/poke.js" defer></script>
+</head>
+<body class="centeredContainer">
+     
+     <div class="container general row w-50">
+          <div class="centeredContainer col-sm-8 mt-5 search">
+               <input class="bg-dark border-0 form-control" 
+               type="text" 
+               id="poke_number" 
+               placeholder="Digite o número do pokemon desejado">
+          </div>
+          <div class="button col-sm-4">
+               <button class="btn btn-success mt-5" id="searchPokemon">Buscar pokemon</button>
+          </div>
+     </div>
+
+
+     <div class="bg-dark col-sm-4 mt-5 centeredContainer container">
+          <span class="text-white mb-3" id="nome"></span>
+          <img class="w-50" src="" alt="" id="image">
+          <span class="text-white mb-3" id="numero"></span>
+     </div>
+
+</body>
+</html>
