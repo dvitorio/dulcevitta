@@ -37,6 +37,13 @@
      justify-content: center !important;
 }
 
+.centeredColumn{
+     align-items: center !important;
+     display: flex !important;
+     justify-content: center !important;
+     flex-direction: column;
+}
+
 #delivery{
      background-color: #ec6827 !important;
      border-radius: 6px !important;
@@ -90,6 +97,7 @@
 
 .midias i{
      color: white;
+     cursor: pointer;
      font-size: 1.5rem;
 }
 
