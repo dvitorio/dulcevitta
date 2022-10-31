@@ -82,6 +82,11 @@
      flex-direction: column;
 }
 
+.ourProducts{
+     background-color: #df9f7b;
+     min-height: 100vh;
+}
+
 .footer{
      max-width: 1920px !important;
      background-color: #742506;
