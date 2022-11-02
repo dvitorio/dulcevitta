@@ -41,7 +41,7 @@
      align-items: center !important;
      display: flex !important;
      justify-content: center !important;
-     flex-direction: column;
+     flex-direction: column !important;
 }
 
 #delivery{
@@ -70,6 +70,14 @@
      font-size: 1.25rem;
 }
 
+.productsSale{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(211, 199, 199);
+     min-height: 90vh;
+}
+
 .contactForm{
      background-color: #f1b999;
      min-height: 30vh;
@@ -88,14 +96,18 @@
 }
 
 .footer{
-     max-width: 1920px !important;
+     align-items: center;
      background-color: #742506;
+     display: flex;
+     justify-content: center;
+     max-width: 1920px !important;
      min-height: 20vh !important;
+     flex-direction: column;
 }
 
 .midias{
-     display: flex;
      align-items: center;
+     display: flex;
      justify-content: space-around;
      max-width: 400px !important;
 }
